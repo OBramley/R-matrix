@@ -2,9 +2,9 @@
 #
 ###################################################################################
 # input_files is where the pre generated inputs are stored
-input_files="/home/home02/cm14oab/R-matrix/teos"
+input_files="/home/home02/cm14oab/R-matrix/input_files"
 # execution_folder is the location of where R-matrix will be run
-execution_folder="/nobackup/cm14oab/example5"
+execution_folder="/nobackup/cm14oab/teos2"
 ###################################################################################
 #
 ############################### FOLDER SET UP ######################################
@@ -44,7 +44,7 @@ cp Binaries/bin/outer/ixsecs $outer
 cp Binaries/bin/outer/rates $outer
 cp Binaries/bin/outer/reson $outer
 cp Binaries/bin/outer/eigenp $outer
-cp Binaries/bin/outer/kmatadgeneral $outer
+# cp Binaries/bin/outer/kmatadgeneral $outer
 cp Binaries/bin/outer/borncros $outer
 cp outer.sh $outer
 ####################################################################################
@@ -69,9 +69,8 @@ cp $input_files/boltz*inp $outer
 cp $input_files/xsec*inp $outer
 cp $input_files/reson* $outer
 cp $input_files/eigen* $outer
-cp $input_files/kmatad* $outer
+# cp $input_files/kmatad* $outer
 cp $input_files/born* $outer
-cp $input_files/fort.448 $outer
 cp $input_files/swint* $outer
 cp $input_files/rsolv* $outer
 cp $input_files/tmatr* $outer
