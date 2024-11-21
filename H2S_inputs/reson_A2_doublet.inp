@@ -1,0 +1,14 @@
+&RES
+  mgvn = 3,
+  stot = 2,
+  iprnt = 1,0,0,1,0,1,
+  nst = 4,
+  ieunit = 2,
+  icform = "f",
+  irform = "f",
+  ikform = "f",
+  label = 4,
+&END
+&BPROP
+  raf = 100.1,
+  igail = 1&END

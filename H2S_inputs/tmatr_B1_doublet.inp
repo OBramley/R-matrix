@@ -1,0 +1,8 @@
+&TMATIN
+  maxi=7,
+  name="T-matrices",
+  ikform="f",
+  itform="f",
+  icform="f",
+  ieunit=2,
+&END

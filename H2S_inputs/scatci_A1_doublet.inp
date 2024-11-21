@@ -1,0 +1,17 @@
+&INPUT
+ megul = 13,
+ iexpc = 1,
+ icitg = 1,
+ idiag = 2,
+ nftg = 0,
+ ntgsym = 7,
+ notgt = 53,34,22,53,34,34,22,
+ mcont = 0,1,3,0,1,2,3,
+ numtgt = 1,1,1,1,1,1,1,
+ ukrmolp_ints = .true.,
+ qmoln = .true.,
+/
+&CINORN
+ name = 'SCATI - Target + Continuum Electron',
+  nciset=1,
+&END

@@ -1,0 +1,13 @@
+&SWINTFIN
+  name="Swinterf run for outer region calculation",
+  mgvn=3,
+  stot=2,
+  ntarg=7,
+  idtarg=1,5,4,7,3,6,2,
+  nvo=0,0,0,0,0,0,0,
+  rmatr=10.0,
+  icform="f",
+  irform="f",
+  nciset=4,
+  ukrmolp_ints=.true.
+&END

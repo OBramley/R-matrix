@@ -1,0 +1,8 @@
+&PHASIN
+  luphso=52,
+  name="Eigenphases Sum",
+  neprnt=0,
+  ieunit=2,
+  icform = "f",
+  ikform = "f",
+&END

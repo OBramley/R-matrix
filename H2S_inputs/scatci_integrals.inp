@@ -1,0 +1,29 @@
+&target_data
+ a = 10
+ no_sym_op = 2
+ sym_op = 'X', 'Y'
+ molden_file = '/home/gregory/QECWorkspace/results/H2S_cc-pVDZ_CC_MCSCF_10_2024-11-13T16-40-03/molpro_jobs/h2s_cc-pvdz_mcscf.molden'
+ nob = 7,2,4,0
+&end
+&continuum_data
+ del_thrs = 1.0D-7, 1.0D-7, 1.0D-7, 1.0D-7
+ min_l = 0
+ max_l = 4
+ exponents(:,0) = 0.285664, 0.192323, 0.1331, 0.092951, 0.064842, 0.044856, 0.030581, 0.020405, 0.01316
+ exponents(:,1) = 0.122892, 0.090415, 0.067252, 0.049872, 0.036577, 0.026325, 0.018346
+ exponents(:,2) = 0.125897, 0.094769, 0.072167, 0.054827, 0.041226, 0.030441, 0.021777
+ exponents(:,3) = 0.172809, 0.125047, 0.092842, 0.069363, 0.051571, 0.037783, 0.026873
+ exponents(:,4) = 0.109026, 0.083761, 0.064972, 0.050144, 0.038118, 0.028125
+ run_free_scattering=.true.
+ min_energy=0.0
+ max_energy=1.0
+ nE=100
+&end
+&process_control
+ do_two_particle_integrals = .true.
+ use_spherical_cgto_alg = .true.
+ max_ijrs_size = 15000.0
+ print_1el_ints = .false.
+ print_2el_ints = .false.
+ qmoln = .true.
+&end

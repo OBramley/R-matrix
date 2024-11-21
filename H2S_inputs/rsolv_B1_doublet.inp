@@ -1,0 +1,19 @@
+&RSLVIN
+  name="K-Matrices",
+  mgvn=1,
+  stot=2,
+  newbut=0,
+  ieunit=2,
+  nescat=1500,
+  einc=0.01,0.01,
+  icform="f",
+  irform="f",
+  ikform="f",
+  ismax=-1,
+  LUKMT=19,
+  NKSET=1,
+&END
+&BPROP
+  raf=100.1,
+  igail=1,
+&END

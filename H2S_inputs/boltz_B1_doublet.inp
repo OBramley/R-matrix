@@ -1,0 +1,7 @@
+&RATESIN
+  name="Rate Coefficient for xsec_B1_doublet.dat ",
+  ieunit=2,
+  infile = "xsec_B1_doublet.dat",
+  outfile ="xsec_B1_doublet_rates.dat",
+  deffile = "xsec_B1_doublet_rates.def",
+  /

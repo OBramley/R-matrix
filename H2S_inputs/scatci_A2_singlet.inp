@@ -1,0 +1,10 @@
+&INPUT
+ megul=73,
+ ukrmolp_ints = .true.,
+ qmoln = .true.,
+/
+&CINORN
+ name = 'Target State Calculation - CC',
+ nstat=0,
+ nciset=4,
+/

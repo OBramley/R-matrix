@@ -1,0 +1,18 @@
+&BELXS
+NAME = 'Born correction',
+LH = 4,
+DTM = 0.4193035761,
+BROT = 6.744259217961406,
+NC = 9,
+estart = 0.01,
+estep = 0.01,
+nsym = 4,
+LUXSN = 402,
+SW = 0,
+nescat = 1500,
+SWX = 4,
+LUXSNO = 178,
+ntarg = 7,
+ixsn = 2,
+QMOLN=.true.,
+SWSUM = 1,/

@@ -1,0 +1,9 @@
+&XSECIN
+  luxsn =32,
+  maxi=7,
+  name="Total Cross Sections",
+  ieunit=2,
+  icform="f",
+  itform="f",
+  ixsn = 2,
+&END

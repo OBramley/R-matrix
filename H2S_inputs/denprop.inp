@@ -1,0 +1,14 @@
+&INPUT
+ name = "Target Transisiton properties calculation",
+ iplotfg = 1,
+ ipol = 1, 
+ ksym = 1,
+ nftsor =70,71,73,74,75,76,77
+ ntgt =7,
+ ntgtf =1,2,4,5,6,7,8
+ ntgtl =1,1,1,1,1,1,1
+ geocfn= 1,
+ zlast=.true., 
+ ukrmolp_ints = .true.,
+ qmoln = .true.,
+/
